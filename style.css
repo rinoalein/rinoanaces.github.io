@@ -1,0 +1,745 @@
+/* Set the default styles for all devices */
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+  
+  @media (max-width: 3000px) 
+  {
+    body
+    {
+        margin: 0;
+        padding: 0;
+        height: 100vh; 
+        background: linear-gradient(180deg, #F2D4EF 0%, #D7C9FF 100%);
+    }
+  }
+
+  .myDetailsCont
+  {
+      height: 100%;
+      width: 430px;
+      left: 20%;
+      top: 57px;
+      position: sticky;
+      align-items: center;
+  }
+  
+  .pfp1{
+      width: 324px;
+      height: 241px;
+      left: 48px;
+      top: 57px;
+      position: absolute;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  }
+
+
+
+
+.emailTxt{
+    width: 290px;
+    height: 19px;
+    margin: auto;
+    top: 476px; 
+    left: 94px; 
+    position: absolute; color: black;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.numTxt{
+    width: 245px;
+    height: 24px;
+    left: 94px; 
+    top: 563px; 
+    position: absolute; color: black;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.bdayTxt{
+    width: 227px;
+    height: 21px;
+    left: 93px;
+    top: 659px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Kufam;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.locTxt{
+    width: 248px;
+    height: 23px;
+    left: 93px;
+    top: 760px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Kufam;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.myNameTxt{
+    width: 359px;
+    height: 31px; 
+    left: 30px; 
+    top: 328px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; font-size: 26px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+.emailCaption{
+    width: 133px;
+    height: 24px;
+    left: 94px; 
+    top: 447px; 
+    position: absolute; 
+    color: black;
+    font-size: 15px; 
+    font-family: Krona One; 
+    font-weight: 400; 
+}
+
+.emailIcon{
+    width: 43px;
+    height: 44px;
+    left: 30px;
+    top: 447px;
+    position: absolute;
+}
+
+.myLabel{
+    width: 280px; 
+    height: 19px; 
+    left: 157px;
+    top: 368px; 
+    position: absolute; 
+    color: #6E5E9A; 
+    font-size: 15px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+.phoneCaption{
+    width: 97px; 
+    height: 15px; 
+    left: 94px; 
+    top: 540px; 
+    position: absolute; 
+    color: black; 
+    font-size: 15px; 
+    font-family: Krona One; 
+    font-weight: 400; 
+}
+
+.phoneIcon{
+        width: 44px; 
+      height: 43px; 
+      left: 30px; 
+      top: 541px; 
+      position: absolute;
+}
+
+.bdayCaption{
+    width: 171px; 
+    height: 22px; 
+    left: 93px; 
+    top: 637px; 
+    position: absolute; 
+    color: black; font-size: 15px; font-family: Krona One; 
+    font-weight: 400; 
+}
+
+.locationCaption{
+    width: 142px;
+    height: 19px; 
+    left: 93px; 
+    top: 741px; 
+    position: absolute; 
+    color: black; font-size: 15px;
+    font-family: Krona One; 
+    font-weight: 400; 
+}
+
+.locationIcon{
+    width: 44px; 
+    height: 43px; 
+    left: 30px; top: 
+    738px; 
+    position: absolute
+}
+
+.calendarIcon{
+    width: 44px; 
+    height: 44px; 
+    left: 30px;
+    top: 639px;
+    position: absolute
+}
+
+/* SOCIALS */
+.socialsCaption{
+    width: 111px;
+      height: 19px; 
+      left: 68px; 
+      top: 854px; 
+      position: absolute; color: black; font-size: 15px; 
+      font-family: Krona One; 
+      font-weight: 400;
+}
+
+.instagramIcon{
+    width: 40px; 
+    height: 40px; 
+    left: 247px; 
+    top: 844px; 
+    position: absolute;
+}
+
+.facebookIcon{
+    width: 40px; 
+    height: 40px; 
+    left: 186px; 
+    top: 844px;
+    position: absolute;
+}
+
+.youtubeIcon{
+    width: 44px; 
+    height: 30.46px; 
+    left: 308px; 
+    top: 849px; 
+    position: absolute;
+}
+
+/* NAVIGATION BUTTONS */
+.button1{
+    width: 154px; 
+    height: 49px; 
+    left: 962px; 
+    top: 67px; 
+    position: absolute;
+    border-radius: 3px;
+}
+
+.rectangle1{
+    width: 154px; 
+    height: 49px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #CDBCFF;
+}
+
+.aboutTxt{
+    width: 65px; 
+    height: 21px; 
+    left: 44px; 
+    top: 16px; 
+    position: absolute; 
+    color: black; font-size: 16px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+.button2{
+    width: 154px;
+    height: 49px;
+    left: 1136px; 
+    top: 67px; 
+    position: absolute;
+}
+
+.rectangle2{
+    width: 154px; 
+    height: 49px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #CDBCFF;
+}
+
+.portfolioTxt{
+    width: 97px; 
+    height: 17px; 
+    left: 31px; 
+    top: 16px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+
+.mainFrame{
+    width: 40%;
+    height: 87%;
+    left: 42%;
+    top: 6%; 
+    position: absolute;
+    overflow-y: auto;
+    margin: auto;
+}
+
+.aboutmeSection{
+    width: 680px;  
+    height: 250px; 
+    align-items: center;
+    left: 30px;
+    top: 7px; 
+    position: absolute; 
+    background: #F7EAFF; 
+    box-shadow: -6px 6px 5px 2px rgba(195, 185, 225, 0.80);
+    border-radius: 5px;
+}
+
+.aboutMeCaption{
+    width: 600px; 
+    height: 41px; 
+    left: 29px; 
+    top: 34px; 
+    position: absolute; 
+    color: black; font-size: 26px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+.line1{
+    width: 500px; 
+    height: 0px; 
+    left: 29px; 
+    top: 75px; 
+    position: absolute; 
+    border: 3px #CDBCFF solid;
+    border-radius: 15px;
+}
+
+.description{
+    width: 595px; 
+    height: 124px; 
+    left: 52px; 
+    top: 95px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.skillsSect{
+    width: 680px;  
+    height: 661px; 
+    left: 30px;; 
+    top: 285px; 
+    position: absolute; 
+    background: #F7EAFF; 
+    box-shadow: -6px 6px 5px 2px rgba(195, 185, 225, 0.80);
+    border-radius: 5px;
+}
+
+.softSkillsCaption{
+    width: 245px; 
+    height: 37px; 
+    left: 24px; 
+    top: 37px; 
+    position: absolute; 
+    font-size: 26px; 
+    font-family: Krona One; 
+    font-weight: 400;
+}
+
+.line2{
+    width: 157px; 
+    height: 0px; 
+    left: 24px; 
+    top: 75px; 
+    position: absolute; 
+    border: 3px #CDBCFF solid;
+    border-radius: 15px;
+}
+
+.secondary1{
+    width: 595px; 
+    height: 23px; 
+    left: 52px; 
+    top: 163px; 
+    position: absolute;
+    color: black; 
+    font-size: 18px; 
+}
+
+.secondary2{
+    width: 479px; 
+    height: 23px; 
+    left: 147px; 
+    top: 195px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-weight: 400; 
+}
+
+.tertiary{
+    width: 595px; 
+    height: 23px; 
+    left: 52px; 
+    top: 242px; 
+    font-size: 18px; 
+    position: absolute;
+}
+
+.specialTraining{
+    width: 595px; 
+    height: 23px; 
+    left: 52px; 
+    top: 275px; 
+    font-size: 18px; 
+    position: absolute;
+}
+
+.creativity{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 240px;
+    height: 20px;
+    left: 128px;
+    top: 112px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+}
+
+.paletteIcon {
+    width: 52px; 
+    height: 52px; 
+    left: 50px; 
+    top: 97px; 
+    position: absolute;
+}
+
+.attentionToDetail {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 240px;
+    height: 20px;
+    left: 128px;
+    top: 178px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+}
+
+.glassIcon {
+    width: 50px; 
+    height: 50px; 
+    left: 50px; 
+    top: 167px; 
+    position: absolute
+}
+
+.teamwork
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 240px;
+    height: 20px;
+    left: 449px;
+    top: 112px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+}
+
+.teamworkIcon {
+    width: 52px; 
+    height: 52px; 
+    left: 381px; 
+    top: 97px; 
+    position: absolute
+}
+
+.effectiveCommunication{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 240px;
+    height: 20px;
+    left: 449px;
+    top: 178px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+}
+
+.commIcon {
+    width: 50px; 
+    height: 50px; 
+    left: 382px; 
+    top: 167px; 
+    position: absolute;
+}
+
+.line3{
+    width: 270px; 
+    height: 0x; 
+    left: 29px; 
+    top: 300px; 
+    position: absolute; 
+    border: 3px #CDBCFF solid;
+    border-radius: 15px;
+}
+
+.techExperience{
+    width: 287px;
+    left: 24px;
+    top: 263px;
+    position: absolute;
+    font-size: 26px;
+    font-family: Krona One;
+    font-weight: 400;
+}
+
+.adobePremier{
+    width: 248px;
+    height: 20px;
+    left: 116px;
+    top: 342px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.premierIcon {
+    width: 50px; 
+    height: 50px; 
+    left: 49px; 
+    top: 324px; 
+    position: absolute;
+}
+
+.adobeIllus{
+    width: 248px;
+    height: 20px;
+    left: 116px;
+    top: 403px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.illusIcon {
+    width: 50px; 
+    height: 48.75px; 
+    left: 49px; 
+    top: 389px; 
+    position: absolute;
+}
+
+.adobePsd{
+    width: 248px;
+    height: 20px;
+    left: 116px;
+    top: 468px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.psdIcon {
+    width: 50px; 
+    height: 50px; 
+    left: 49px; 
+    top: 453px; 
+    position: absolute
+}
+
+.msExcel{
+    width: 248px;
+    height: 20px;
+    left: 116px;
+    top: 531px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.excelIcon {
+    width: 50px; 
+    height: 45.01px; 
+    left: 49px; 
+    top: 518px; 
+    position: absolute
+}
+
+.msPpt{
+    width: 248px;
+    height: 20px;
+    left: 116px;
+    top: 595px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.pptIcon {
+    width: 50px; 
+    height: 45.80px; 
+    left: 50px; 
+    top: 578px; 
+    position: absolute
+}
+
+.msWord{
+    width: 248px;
+    height: 20px;
+    left: 449px;
+    top: 342px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.wordIcon {
+    width: 50px; 
+    height: 47.27px; 
+    left: 382px; 
+    top: 325px; 
+    position: absolute;
+}
+
+.java{
+    width: 248px;
+    height: 20px;
+    left: 449px;
+    top: 403px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.javaIcon {
+    width: 45px; 
+    height: 57px; 
+    left: 387px; 
+    top: 384px; 
+    position: absolute;
+}
+
+.python{
+    width: 248px;
+    height: 20px;
+    left: 449px;
+    top: 468px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+ }
+
+.pythonIcon {
+    width: 45px; 
+    height: 50px; 
+    left: 387px; 
+    top: 453px; 
+    position: absolute;
+}
+
+.c
+{
+    width: 248px;
+    height: 20px;
+    left: 449px;
+    top: 531px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    font-size: 16px;
+}
+
+.cIcon {
+    width: 49px; 
+    height: 54px; 
+    left: 385px; 
+    top: 513px; 
+    position: absolute;
+}
+
+.certsSect{
+    width: 680px;  
+    height: 750px; 
+    left: 30px;
+    top: 975px; 
+    position: absolute; 
+    background: #F7EAFF; 
+    box-shadow: -6px 6px 5px 2px rgba(195, 185, 225, 0.80);
+    border-radius: 5px;
+}
+
+.certifications
+{
+    width: 287px;
+    left: 24px;
+    top: 30px;
+    position: absolute;
+    font-size: 26px;
+    font-family: Krona One;
+    font-weight: 400;
+}
+
+.line4
+{
+    width: 224px; 
+    height: 0px; 
+    left: 24px; 
+    top: 70px; 
+    position: absolute; 
+    border: 3px #CDBCFF solid;
+    border-radius: 15px;
+}
+
+.gallery 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.gallery img 
+{
+    margin: 10px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoomed 
+{
+    transform: scale(1);
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%) scale(2);
+    margin: auto;
+}
